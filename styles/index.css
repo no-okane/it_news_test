@@ -1,0 +1,68 @@
+body, html {scroll-behavior: smooth;}
+body * {transition: all 0.3s; overflow: hidden;}
+#wrap {min-height: 100vh;}
+.container {max-width: 1400px; min-width: 430px; margin: 0 auto;}
+
+#wrap main {}
+
+/* 1행================================================================== */
+#wrap main .row1 {}
+#wrap main .row1 .container {display: flex; gap: 30px; padding: 40px 0; border-bottom: 1px solid #F8F9FA;}
+#wrap main .row1 .container .left_thums {border-radius: 10px;}
+#wrap main .row1 .container .left_thums a {
+    width: 676px; height: 380px; display: block;
+    background:url(../images/001.png) no-repeat center / cover;
+}
+#wrap main .row1 .container .right {
+    width: calc(100% - 676px);
+    display: flex; flex-flow: column nowrap; gap: 60px; justify-content: center;
+}
+#wrap main .row1 .container .right .top {display: flex; flex-flow: column nowrap; gap: 30px;}
+#wrap main .row1 .container .right .top h1 {}
+#wrap main .row1 .container .right .top h1 a {font-size: 1.563rem; font-weight: 500;}
+#wrap main .row1 .container .right .top p {}
+#wrap main .row1 .container .right .top p a {line-height: 1.5;}
+#wrap main .row1 .container .right .top .sub_time {display: flex; gap: 10px; align-items: center;}
+#wrap main .row1 .container .right .top .sub_time p {}
+#wrap main .row1 .container .right .top .sub_time p a {font-weight: 500;}
+#wrap main .row1 .container .right .bottom {text-align: right; height: 40px;}
+#wrap main .row1 .container .right .bottom a {background: #007BFF; color: #fff; padding: 12px 11px; line-height: 40px; border-radius: 7px;}
+#wrap main .row1 .container .right .bottom a:hover {background: #469FFF;}
+
+/* 2행================================================================== */
+#wrap main .row2 {}
+#wrap main .row2 .container {padding: 40px 0; border-bottom: 1px solid #F8F9FA;}
+#wrap main .row2 .container .ad {
+    width: 100%; height: 140px; background: #F8F9FA; padding: 35px 95px;
+    display: flex; flex-flow: row nowrap; align-items: center; justify-content: space-between;
+    border-radius: 10px;
+}
+#wrap main .row2 .container .ad > span {font-size: 1.25rem; font-weight: 500;}
+#wrap main .row2 .container .ad button {
+    background: #007BFF; width: 200px; height: 40px; border-radius: 5px;
+    font-weight: 500; color: #fff;
+}
+#wrap main .row2 .container .ad button:hover {background: #469FFF;}
+
+
+/* 3행================================================================== */
+#wrap main .row3 {}
+#wrap main .row3 .container {
+    padding: 40px 0;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 30px;
+}
+#wrap main .row3 .container .card {width: calc(100% / 1); display: flex; flex-flow: column nowrap; gap: 20px;}
+#wrap main .row3 .container .card .thums {width: 100%; height: 380px; display: block; border-radius: 10px; background: aqua;}
+#wrap main .row3 .container .card a {}
+#wrap main .row3 .container .card > a:nth-of-type(3) {line-height: 150%;}
+#wrap main .row3 .container .card a em {font-weight: 500; font-size: 1.125rem;}
+#wrap main .row3 .container .card span {display: flex; gap: 10px;}
+#wrap main .row3 .container .card span a {font-weight: 500;}
+#wrap main .row3 .container .card span span {}
+
+#wrap main .row3 .container .card1 .thums{background: url(../images/001.png) no-repeat center /cover;}
+#wrap main .row3 .container .card2 .thums{background: url(../images/002.png) no-repeat center /cover;}
+#wrap main .row3 .container .card3 .thums{background: url(../images/003.png) no-repeat center /cover;}
+#wrap main .row3 .container .card4 .thums{background: url(../images/004.png) no-repeat center /cover;}
+#wrap main .row3 .container .card5 .thums{background: url(../images/005.png) no-repeat center /cover;}
+#wrap main .row3 .container .card6 .thums{background: url(../images/006.png) no-repeat center /cover;}

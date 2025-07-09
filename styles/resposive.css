@@ -1,0 +1,21 @@
+@media screen and (max-width:430px) {
+    /* 헤더================================================================== */
+    #wrap header .container {padding: 0 15px;}
+    #wrap header .container nav > a {display: none;}
+
+    /* 1행================================================================== */
+    #wrap main .row1 .container {flex-flow: column nowrap; gap: 30px; padding: 20px 15px;}
+    #wrap main .row1 .container .left_thums a {width: 100%; height: 200px;}
+    #wrap main .row1 .container .right {width: 100%; gap: 20px;}
+
+    /* 2행================================================================== */
+    #wrap main .row2 .container {padding: 20px 15px;}
+    #wrap main .row2 .container .ad {padding: 20px; flex-flow: column nowrap; gap: 10px; text-align: center;}
+
+    /* 3행================================================================== */
+    #wrap main .row3 .container {padding: 20px 15px; grid-template-columns: 1fr;}
+    #wrap main .row3 .container .card .thums {height: 200px;}
+    /* 풋터================================================================== */
+    #wrap footer {padding: 20px 0;}
+    #wrap footer .container {padding: 0 15px 20px;}
+}

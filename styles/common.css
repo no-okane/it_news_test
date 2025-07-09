@@ -1,0 +1,27 @@
+/* 헤더====================================================== */
+#wrap header {border-bottom: 1px solid #F8F9FA;}
+#wrap header .container {display: flex; align-items: center; justify-content: space-between; height: 80px;}
+#wrap header .container nav {display: flex; align-items: center; gap: 45px;}
+#wrap header .container nav h1 {}
+#wrap header .container nav h1 a {}
+#wrap header .container nav h1 a img {}
+#wrap header .container nav > a {display: inline-flex; height: 80px; line-height: 80px;}
+#wrap header .container .right_menu {display: flex; align-items: center; gap: 15px;}
+#wrap header .container .right_menu a img {}
+#wrap header .container .right_menu .login_btn {
+    padding: 12px 13px;
+    background: #007BFF; color: #fff;
+    border-radius: 5px;
+}
+#wrap header .container .right_menu .login_btn:hover {background: #469FFF;}
+
+/* 풋터====================================================== */
+#wrap footer {background: #F8F9FA; padding: 50px 0;}
+#wrap footer .container {}
+#wrap footer .container .logo {margin-bottom: 30px;}
+#wrap footer .container .logo a {}
+#wrap footer .container .logo a img {}
+#wrap footer .container .contets {}
+#wrap footer .container .contets * {font-size: 0.938rem;}
+#wrap footer .container .contets p {font-weight: 500; margin-bottom: 15px;}
+#wrap footer .container .contets address {}
